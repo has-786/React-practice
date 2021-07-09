@@ -1,0 +1,48 @@
+:root{
+    --mycolor: linear-gradient(to right,red 30%,darkblue  70%);
+    --radius:10px;
+}
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+}
+
+.flex-items{
+    background:var(--mycolor);
+    border-radius: var(--radius)+20%;
+    width:100px;
+    height: 100px;
+    padding-top:30px;
+    margin:10px 20px;
+}
+
+.flex-text{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:white;
+    padding-left:10px ;
+    padding-right:10px ;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-items{
+    font-size: 30px;
+    padding:20px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: aqua;
+    color:black;
+}
+

@@ -1,0 +1,14 @@
+
+@mixin circle($w,$h,$radius){
+    width:$w;
+    height:$h;
+    border-radius:$radius;
+}
+
+.bigcircle{
+    @include circle(300px,300px,50%);
+}
+
+.smallcircle{
+    @include circle(150px,150px,35%);
+}

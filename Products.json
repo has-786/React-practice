@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "Note",
+      "description": "Samsung",
+      "status": "available"
+    },
+    {
+      "id": 3,
+      "name": "sHOES",
+      "description": "FEFQ",
+      "status": "QFW"
+    },
+    {
+      "id": 4,
+      "name": "SFES",
+      "description": "AQFW",
+      "status": "FAF"
+    },
+    {
+      "id": 5,
+      "name": "awfaf",
+      "description": "aqfqwf",
+      "status": "fqwgfdd"
+    }
+  ]
+}
